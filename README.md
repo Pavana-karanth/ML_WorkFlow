@@ -20,12 +20,14 @@ The project demonstrates the following key machine learning and AWS engineering 
 ## 🌸 Repository Structure
 
 ```
-├── README.md                             # This file — detailed project overview
-├── Cutiepies.asl.json                    # AWS Step Functions workflow definition (ASL model)
-├── Workflow execution.png                # Screenshot of workflow execution summary
-├── Workflow - Lambda functions!.png      # Screenshot showing successful Lambda executions
-├── lambda_functions.py                   # Python script containing all 3 Lambda functions
-├── starter.ipynb                         # Complete Jupyter Notebook (data prep, training, deployment, & tests)
+├── README.md                                               # This file — detailed project overview
+├── Cutiepies.asl.json                                      # AWS Step Functions workflow definition (ASL model)
+├── Workflow execution.png                                  # Screenshot of workflow execution summary
+├── Workflow - Lambda functions!.png                        # Screenshot showing successful Lambda executions
+├── Workflow Error Log.png                                  # Screenshot showing log for error in low confidence image test
+├── Workflow execution (with error as expected).png         # Screenshot showing failure and error in execution
+├── lambda_functions.py                                     # Python script containing all 3 Lambda functions
+├── starter.ipynb                                           # Complete Jupyter Notebook (data prep, training, deployment, & tests)
 ```
 
 
